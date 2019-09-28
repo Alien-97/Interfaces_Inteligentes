@@ -32,3 +32,40 @@ Los personajes serán:
 Los objetos serán vehículos en general, todo tipo de inmuebles, bosques, ríos, montañas, pastos.
 
 ##### Qué acciones puede llevar a cabo el usuario.
+
+ Moverse,frenar,acelerar, cambiar visión tanque, disparar, girar cañón.
+
+##### Las animaciones
+
+Sería el propio tanque en movimiento, las balas del tanque, explosiones, giro del cañón, movimientos de los otros vehículos y personas.
+
+##### El audio
+
+Se generan sonidos diferentes cuando:
+
+	*Una bala impacta en el enemigo
+	*El movimiento del propio tanque
+	*Cuando gira el cañón
+	*Disparo del cañón
+	*Cuando se reciben disparon del ememigo
+	*Impactos en el propio tanque
+
+##### La inteligencia artificial 
+
+Los enemigos usarán la inteligencia para hacer que no cumplas tu misión, pondrán obstáculos en el camino,atacarán tu zona.
+
+##### Condiciones para ganar
+
+Cumplir la misión, hay tres tipos de misiones: atacar una zona enemiga y conquistarla, defender tu propia zona, y por último, realizar una tarea de reconocimiento sin que se destruya tu tanque.
+
+##### Si el personaje muere dónde aparecerá 
+
+Aparecerá en su base
+
+##### Sistema de puntuación
+
+Dependerá de las bajas causadas al enemigo y/o cumplir la misión. Perderás puntos si eres destruido o fallas la misión.
+
+##### Mockup
+
+
