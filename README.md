@@ -13,4 +13,6 @@ Nos hemos propuesto desarrollar un videojuego basado en realidad virtual, el usu
 
 El escenario del videojuego es un campo abierto, con obstáculos representados en bosques,ríos,montañas,baja visibilidad.
 
+![imagen_tanque](img/ImagenTanque.jpg)
+
 ##### 
