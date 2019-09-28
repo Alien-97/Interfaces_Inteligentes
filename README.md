@@ -15,4 +15,20 @@ El escenario del videojuego es un campo abierto, con obstáculos representados e
 
 ![imagen_tanque](img/ImagenTanque.jpg)
 
-##### 
+##### El objetivo del jugador
+
+El objetivo del jugador es cumplir la misión que se le orden, podrá ser moverse por el campo para reconocer un objetivo, disparar a un objetivo,defender una zona.
+
+##### Los personajes: su comportamiento, y cómo se controla
+
+Los personajes serán:
+		* Enemigos en general: personas.
+
+		*El conductor principal del tanque.
+
+
+##### Los objetos en la escena: su comportamiento etc...
+
+Los objetos serán vehículos en general, todo tipo de inmuebles, bosques, ríos, montañas, pastos.
+
+##### Qué acciones puede llevar a cabo el usuario.
