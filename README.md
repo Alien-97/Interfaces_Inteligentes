@@ -68,7 +68,7 @@ Dependerá de las bajas causadas al enemigo y/o cumplir la misión. Perderás pu
 
 ##### Mockup
 
-![mockup](img/mockup.jpg)
+![mockup](img/mockup.jpeg)
 
 
 
