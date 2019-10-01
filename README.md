@@ -60,12 +60,15 @@ Cumplir la misión, hay tres tipos de misiones: atacar una zona enemiga y conqui
 
 ##### Si el personaje muere dónde aparecerá 
 
-Aparecerá en su base
+Aparecerá en su base.
 
 ##### Sistema de puntuación
 
 Dependerá de las bajas causadas al enemigo y/o cumplir la misión. Perderás puntos si eres destruido o fallas la misión.
 
 ##### Mockup
+
+![mockup](img/mockup.jpg)
+
 
 
