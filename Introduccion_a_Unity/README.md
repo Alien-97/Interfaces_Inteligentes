@@ -11,4 +11,4 @@ Finalmente se ha agregado de la AssetStore una especie de parque con abundante v
 
 Todo esto combinado con los elementos anteriormente mencionados, nos permite configurar un paisaje verde.
 
-!["Texto alternativo"](ADBD/Tarea_Prct_Intro_Unity/img/CapturaEscena1_Prct_4_Oct.jpg)
+!["Texto alternativo"](./img/CapturaEscena1_Prct_4_Oct.PNG)
