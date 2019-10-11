@@ -3,7 +3,7 @@
 
 ## Viernes 4 Octubre 2019
 
-# Autor : Alien Embarec Riadi
+* Autor : Alien Embarec Riadi
 
 En esta práctica hemos creado una escena básica en Unity, añadiéndole objetos 3D como árboles, fuentes de agua, dos personajes de la AssetStore, esferas, terrenos, y dos focos de luz.
 
@@ -15,3 +15,7 @@ Todo esto combinado con los elementos anteriormente mencionados, nos permite con
 
 
 !["Texto alternativo"](./img/CapturaEscena4.PNG)
+
+!["Texto alternativo"](./img/CapturaEscena3.PNG)
+
+!["Texto alternativo"](./img/CapturaEscena5.PNG)
