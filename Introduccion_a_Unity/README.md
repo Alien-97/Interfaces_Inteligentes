@@ -13,9 +13,16 @@ Todo esto combinado con los elementos anteriormente mencionados, nos permite con
 
 !["Texto alternativo"](./img/CapturaEscena1_Prct_4_Oct.PNG)
 
-
 !["Texto alternativo"](./img/CapturaEscena4.PNG)
 
 !["Texto alternativo"](./img/CapturaEscena3.PNG)
 
 !["Texto alternativo"](./img/CapturaEscena5.PNG)
+
+Debido a un problema con el sistema de  control de versiones Unity Collab, que no guardaba todos los componentes del proyecto, no tenía acceso a las copias de mis trabajos que había empezado en el CC de la ESIT. Por ello, empecé la tarea de nuevo en mi ordenador personal. Aquí dejo algunas fotos de lo que hice:
+
+!["Texto alternativo"](./img/CapturaEscena1_NP.PNG)
+
+!["Texto alternativo"](./img/CapturaEscena2_NP.PNG)
+
+!["Texto alternativo"](./img/CapturaEscena3_NP.PNG)
