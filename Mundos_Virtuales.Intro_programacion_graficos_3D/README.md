@@ -76,5 +76,21 @@ Posteriormente para rotar haría lo siguiente:
 
 Los cuaterniones son una extensión de los números reales, similar a la de los números complejos. Mientras que los números complejos son una extensión de los reales por la adición de la unidad imaginaria i, tal que  i<sup>2</sup>=-1 = -1, los cuaterniones son una extensión generada de manera análoga añadiendo las unidades imaginarias i, j y k a los números reales tal que:
 
-	 i<sup>2</sup>=j<sup>2</sup>=k<sup>2</sup>=ijk=-1
+	 i<sup>2</sup> = j<sup>2</sup> = k<sup>2</sup> = ijk =-1
+
+10.	Analiza la documentación de la cámara en Unity 3D e identifica los conceptos explicados respecto a la cámara.
+
+Los conceptos importantes extraidos son:
+
+Una cámara es un objeto que define una vista en una escena.
+
+Una cámara en el mundo real, o incluso el ojo humano, ven el mundo de una forma que hace que los objetos se vean más pequeños cuanto más alejados están del punto de vista.
+
+Una cámara que no disminuye el tamaño de los objetos con la distancia es conocida como ortográfica y las cámaras de Unity también pueden ser de este tipo. Los modos de ver una escena tanto en perspectiva como ortográfica son conocidos como proyecciones de la cámara.
+
+El volumen de visualización de una cámara ortográfica está definido por una caja rectangular que se extiende entre los dos planos de delimitación.
+
+El volumen de visión de una cámara de perspectiva no es una caja sino una forma piramidal con el vértice en la posición de la cámara y la base en el plano de delimitación lejano.
+
+Un skybox se comporta como una “caja” llena con imágenes de un cielo. La cámara se coloca en el centro de esta caja y puede ver el cielo en todas las direcciones. La cámara ve un área diferente del cielo a medida que gira pero nunca se mueve del centro (por lo que la cámara no puede “acercarse” al cielo).
 
