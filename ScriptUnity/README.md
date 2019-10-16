@@ -1,4 +1,4 @@
-##### Tarea Script Unity  Viernes 11 Octubre
+### Tarea Script Unity  Viernes 11 Octubre
 
 * Autor: Alien Embarec Riadi
 
@@ -16,6 +16,11 @@ También se crea un campo público  para introducir que el usuario introduzca la
 Cabe destacar que el sistema de referencia que se está considerando en Unity es aquel en el que la x representa el movimiento en el plano, a derecha o izquierda, la z representa la profundidad, es decir, los movimientos hacia delante o hacia atrás, y por último, la y, representa la altura, es decir, el movimiento hacia arriba o abajo.
 
 Posteriormente usamos el tiempo físico y no el frame para calcular la distancia que nos movemos, a similitud de la fórmula física *espacio = velocidad * tiempo*, para obtener el tiempo usamos *Time.deltaTime*, para calcular el tiempo que pasó desde el anterior frame hasta el actual,  considerando una velocidad constante, para obtener la distancia exacta que se ha movido el objeto.
+
+
+Aquí se puede ver un GIF del cubo moviéndose:
+
+![Alt Text](./img/Grabacion_Cubo.gif)
 
 
 
