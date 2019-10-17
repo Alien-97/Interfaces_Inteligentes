@@ -2,7 +2,7 @@
 
 * Autor : Alien Embarec Riadi
 
-1.	Qué funciones se pueden usar en los scripts de Unity para llevar a cabo traslaciones, rotaciones y escalados. 
+1.	Qué funciones se pueden usar en los scripts de Unity para llevar a cabo traslaciones, rotaciones y escalados.
 
 Podemos hacer cualquiera  de estas operaciones invocándolas sobre el objeto *Transform*. Podemos trasladar(mover  de lugar) un objeto  en cualquiera de sus tres ejes contamos con la propiedad *Translate*, por ejemplo:
 
@@ -43,32 +43,46 @@ Y por último, para los escalados, se usa el atributo *localScale*, que sirve pa
 
 
 2.	¿Cómo duplicarías el tamaño de un objeto en un script?
-
 Para duplicar el tamaño de un objeto contamos con la propiedad *localScale*, mencionada en la pregunta anterior.
-
+Transform ti = GetComponent<Transform>();
+transform.localScale += transform.localScale;
 
 3. ¿Cómo situarías un objeto en la posición (3,5,1)?
 
  Crearía un vector de tipo *Vector3*, a este vector le indicaría la posición en la que quiero situar el objeto, y posteriormente haría uso de la función *Translate* de la clase *Transform* para moverlo, de la siguiente manera:
+		Transform ti = GetComponent<Transform>();
 
-		Vector3 movement = new Vector3(3,5,1); 
-		tf.Translate(movement * Time.deltaTime * speed);
+		ti.localPosition = new Vector3(3,5,1);
 
-La velocidad a la que se mueve el objeto es constante, y puede ser un atributo privado predefinido o público indicado por el usuario.
+
 
 4. ¿Cómo trasladarías 3 metros en cada uno de los ejes y luego lo rotas 30º alrededor del eje Y?
 
-Para trasladar, tomando cada paso de un metro, aumentaría en tres unidades cada uno de los ejes.
+ti.Transform(new Vector3(3,3,3));
+ti.Rotate(0, 30, 0);
 
-Posteriormente para rotar haría lo siguiente:
+Para trasladar, tomando cada paso de un metro, aumentaría en tres unidades cada uno de los ejes.La velocidad a la que se mueve el objeto es constante, y puede ser un atributo privado predefinido o público indicado por el usuario.
 
-	function Update(){
-		
-		transform.Rotate(0, 30, 0);
-		
-	}
+5. Como rotarías un objeto sobre el eje (1,1,1).
 
-5. Cómo rotarías un objeto en la posición (3,5,1).
+
+			ti.Rotate(new Vector3(30,30,30));
+
+
+6.	Rota un objeto alrededor del eje Y 30ª y desplázalo 3 metros en cada uno de los ejes. ¿Obtendrías el mismo resultado que en 4?
+
+No, no se obtendría el mismo resultado, el desplazamiento no sería el mismo dependiendo de si se cambia de posición antes o después de rotar.
+
+ti.Rotate(0, 30, 0);
+ti.Transform(new Vector3(3,3,3));
+
+
+7.	¿Cómo puedes obtener la distancia al plano cerca del volumen de vista?
+
+	Camera cam = GetComponent<Camera>();
+	cam.nearClipPlane;
+
+8. Cómo puedes realizar la proyección al espacio 2D.
 
 
 
@@ -94,3 +108,16 @@ El volumen de visión de una cámara de perspectiva no es una caja sino una form
 
 Un skybox se comporta como una “caja” llena con imágenes de un cielo. La cámara se coloca en el centro de esta caja y puede ver el cielo en todas las direcciones. La cámara ve un área diferente del cielo a medida que gira pero nunca se mueve del centro (por lo que la cámara no puede “acercarse” al cielo).
 
+
+11.	¿Cómo puedes averiguar la matriz de proyección que se ha usado para proyectar la escena al último frame renderizado?.
+
+	cam = GetComponent<Camera>();
+	originalProjection = cam.projectionMatrix;
+
+12.
+
+Matrix4x4 mtr = tr.worldToLocalMatrix;
+
+13.
+
+tr.position
