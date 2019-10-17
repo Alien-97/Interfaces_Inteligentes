@@ -50,6 +50,7 @@ transform.localScale += transform.localScale;
 3. ¿Cómo situarías un objeto en la posición (3,5,1)?
 
  Crearía un vector de tipo *Vector3*, a este vector le indicaría la posición en la que quiero situar el objeto, y posteriormente haría uso de la función *Translate* de la clase *Transform* para moverlo, de la siguiente manera:
+
 		Transform ti = GetComponent<Transform>();
 
 		ti.localPosition = new Vector3(3,5,1);
@@ -73,14 +74,14 @@ Para trasladar, tomando cada paso de un metro, aumentaría en tres unidades cada
 
 No, no se obtendría el mismo resultado, el desplazamiento no sería el mismo dependiendo de si se cambia de posición antes o después de rotar.
 
-ti.Rotate(0, 30, 0);
-ti.Transform(new Vector3(3,3,3));
+	ti.Rotate(0, 30, 0);
+	ti.Transform(new Vector3(3,3,3));
 
 
 7.	¿Cómo puedes obtener la distancia al plano cerca del volumen de vista?
 
-	Camera cam = GetComponent<Camera>();
-	cam.nearClipPlane;
+		Camera cam = GetComponent<Camera>();
+		cam.nearClipPlane;
 
 8. Cómo puedes realizar la proyección al espacio 2D.
 
@@ -111,13 +112,13 @@ Un skybox se comporta como una “caja” llena con imágenes de un cielo. La c�
 
 11.	¿Cómo puedes averiguar la matriz de proyección que se ha usado para proyectar la escena al último frame renderizado?.
 
-	cam = GetComponent<Camera>();
-	originalProjection = cam.projectionMatrix;
+		cam = GetComponent<Camera>();
+		originalProjection = cam.projectionMatrix;
 
-12.
+12. ¿Cómo puedes obtener la matriz de transformación entre el sistema de coordenadas local y el mundial?.
 
-Matrix4x4 mtr = tr.worldToLocalMatrix;
+		Matrix4x4 mtr = tr.worldToLocalMatrix;
 
-13.
+13.	¿Como puedes calcular las coordenadas del sistema de referencia de un objeto con las siguientes propiedades del Transform:?: Position (3, 1, 1), Rotation (45, 0, 45)
 
-tr.position
+		tr.position
