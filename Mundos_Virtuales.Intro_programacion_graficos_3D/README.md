@@ -121,4 +121,5 @@ Un skybox se comporta como una “caja” llena con imágenes de un cielo. La c�
 
 13.	¿Como puedes calcular las coordenadas del sistema de referencia de un objeto con las siguientes propiedades del Transform:?: Position (3, 1, 1), Rotation (45, 0, 45)
 
-		tr.position
+		tr.position; 
+		tr.TransformPoint(tr.localPosition);
