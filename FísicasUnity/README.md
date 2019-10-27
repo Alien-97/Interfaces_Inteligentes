@@ -12,7 +12,7 @@ En esta práctica se ha trabajado con propiedades físicas en *GameObjects*, est
 La escena cuenta con un terreno texturizado, donde una parte de él adquiere forma de relieve. Tiene un personaje, *Ethan*, de la Standard Assets, sobre el que aplicaremos *RigidBody*, implementaremos código para hacer movimientos físicos (Véase *EthanMovement.cs*), un contador de colisiones con la esfera. El movimiento físico se consigue con el método *AddForce*, pasándole las coordenadas del movimiento que queremos hacer, y la aceleración. Un cubo, *GameObject*, sobre el que implementaremos código para moverlo físicamente con las teclas ILJM, con JL nos movemos hacia delante o atrás respectivamente, IM, para movernos hacia izquierdas o derecha, siempre tomando como sistema de referencia la cámara.
 </p>
 <p align="justify">
-
+	
 También cuenta con una cápsula, *GameObject* ( código en el fichero *CapsuleMovement.cs*), que también moveremos con las teclas ILJM. Dos esferas, *GameObject*, una se mueve aleatoriamente (Véase *RandomMovementScript.cs*) por el terreno ( véase *RandomMovement.cs*), y la otra es movida por *Ethan*.
 
 </p>
