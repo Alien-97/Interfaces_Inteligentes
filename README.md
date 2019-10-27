@@ -4,3 +4,5 @@
 * Correo : alu0101035406@ull.edu.es
 
 ## Repositorio para almacenar las tareas de la asignatura Interfaces Inteligentes, Cuarto del Grado en Ingeniería Informática, Universidad de la Laguna
+
+Los directorios se distribuyen en tareas y prácticas.
