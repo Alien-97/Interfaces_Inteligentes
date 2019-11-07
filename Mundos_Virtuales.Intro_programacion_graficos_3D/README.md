@@ -85,7 +85,7 @@ No, no se obtendría el mismo resultado, el desplazamiento no sería el mismo de
 
 8. Cómo puedes realizar la proyección al espacio 2D.
 
-
+		camera.WorldToViewportPoint(point);
 
 9. Investiga qué son los *quaternion*.
 
@@ -121,5 +121,5 @@ Un skybox se comporta como una “caja” llena con imágenes de un cielo. La c�
 
 13.	¿Como puedes calcular las coordenadas del sistema de referencia de un objeto con las siguientes propiedades del Transform:?: Position (3, 1, 1), Rotation (45, 0, 45)
 
-		tr.position; 
-		tr.TransformPoint(tr.localPosition);
+		Transform.position = new Vector3(3, 1, 1);
+		Transform.Rotate(45, 0, 45);
