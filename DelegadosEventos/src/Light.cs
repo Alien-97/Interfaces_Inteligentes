@@ -1,17 +1,20 @@
-﻿using System.Collections;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Light : MonoBehaviour
-{
-    // Use this for initialization
+public class LightAlien : MonoBehaviour {
+
+	public Light myLight;
+	// Use this for initialization
 	void Start () {
+		myLight = GetComponent<Light>();
         GameController.CambioLuz += CambiarLuz;
     }
 
-    public void CambiarLuz(){
-        Light myLight = GetComponent<Light>();
-        //myLight.enabled = !myLight.enabled;
-        myLight.intensity = 0;
+    void CambiarLuz()
+    {
+        myLight.enabled = !myLight.enabled;
     }
 }
+

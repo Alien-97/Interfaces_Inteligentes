@@ -6,3 +6,7 @@ En esta práctica se ha llevado a cabo la creación de una escena en el motor de
 
 En este proyecto, los objetos de tipo A son los árboles, y los de tipo B, son las numerosas esferas que se distribuyen sobre el terreno. Además, se pedía que si el jugador choca con un objeto de tipo A, se incrementara su poder en un contador, y si lo hace con uno de tipo B, se decrementara el contador, y el objeto B se deformara, ya sea aumentando o disminuyendo su tamaño, este cambio se tenía que reflejar en todos los objetos del mismo tipo simultáneamente.
 
+Aquí se muestra un ejemplo animado de la práctica:
+
+![imagen](./img/GIF_Animado.gif)
+
