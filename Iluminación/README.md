@@ -3,6 +3,7 @@
 
 * Autor : Alien Embarec Riadi
 
+* Enlace de GitHub al repositorio de la tarea : https://github.com/Alien-97/Interfaces_Inteligentes/tree/master/Iluminaci%C3%B3n
 * 1.) *Light mapping*
 
 	Lightmapping es el proceso de pre-calcular el brillo de las superficies en una escena, y almacenar el resultado en un gráfico o "mapa de luz" para su uso posterior.
@@ -50,4 +51,5 @@
 	Global Illumination (GI) es un sistema que modela cómo la luz rebota de superficies a otras superficies (luz indirecta) en vez de estar limitada a la luz que golpea una superficie directamente desde una fuente de luz (luz directa). Modelar la luz indirecta permite efectos que hacen que el mundo virtual se vea más real y conectado, ya que los objetos afectan la apariencia de cada uno.
 
 	Unity usa por defecto este modelo para iluminar las escenas.
+
 
