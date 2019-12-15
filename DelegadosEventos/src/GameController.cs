@@ -8,8 +8,10 @@ public class GameController : MonoBehaviour {
 	// cuando se choca con un objeto de tipo A
     public delegate void PlayerEvents(); // El tipo delegado para declarar los eventos
     public static event PlayerEvents CambioLuz;
-    public static event PlayerEvents AumentoPoder;
-    public static event PlayerEvents ReduccionPoder;
+    //public static event PlayerEvents AumentoPoder;
+    //public static event PlayerEvents ReduccionPoder;
+    public static event PlayerEvents Atacar;
+    private PlayerPower jugador;
 
     void Update()
     {   
@@ -19,7 +21,17 @@ public class GameController : MonoBehaviour {
         {
             CambioLuz(); // Está llamando al evento del mismo nombre arriba, digamos que los eventos son métodos
             Debug.Log("pulsada tecla ");
-        }            
+        }
+
+        GameObject Ethan = GameObject.Find ("ThirdPersonController");
+        jugador = Ethan.GetComponent<PlayerPower> ();
+        
+        if (Input.GetKeyDown(KeyCode.X))
+            Atacar(jugador.Energia());
+
+            /*if (Input.GetKeyDown(KeyCode.Z))
+                Saquear();*/
+                
     }
 
     public static void AumentarPoder() //Depende de una colision
@@ -37,4 +49,12 @@ public class GameController : MonoBehaviour {
             ReduccionPoder();
         }
     }
+
+    /*public static void AtacarObjetoA(){
+        if(  Atacar!=null){
+            Atacar();
+        }
+    }*/
+
+
 }

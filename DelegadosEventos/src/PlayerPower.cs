@@ -10,23 +10,47 @@ public class PlayerPower : MonoBehaviour {
     // Poder, que se encarga de aumentar el poder, y hace todo lo que se estime oportuno.
     // El evento es un intermediario entre el método y el puntero
     public int poder = 0;
+    private int energia;
 
+    private Transform tf;
     // Use this for initialization
     void Start () {
-        GameController.AumentoPoder += AumentarPoder; // Vinculas al evento(al puntero) y al método, el evento es un vector de funciones porque lo único que hace es llamar funciones
-        GameController.ReduccionPoder += ReducirPoder;
+        //GameController.AumentoPoder += AumentarPoder; // Vinculas al evento(al puntero) y al método, el evento es un vector de funciones porque lo único que hace es llamar funciones
+        //GameController.ReduccionPoder += ReducirPoder;
+        GameController.Atacar +=AtacarDeformarYAumentarEnergia;
+        energia = 1;
     }
 
-    private void AumentarPoder()
+
+    /*private void AumentarPoder()
     {
         poder++;
         Debug.Log(poder);
+    }*/
+
+    public int Energia(){
+        return energia;
     }
 
-    private void ReducirPoder()
+    /*private void ReducirPoder()
     {
         poder--;
         Debug.Log(poder);
+    }*/
+
+    private void AtacarDeformarYAumentarEnergia(int energia){
+
+        Debug.Log(poder);
+        // Disminuye mi poder
+        poder -= energia;
+        // Disminuye mi tamaño
+        float newScale = tf.localScale.x - (energia * 0.3f);
+        if (newScale >= 0) {
+            tf.localScale = new Vector3 (newScale, newScale, newScale);
+            tf.localPosition = new Vector3 (tf.localPosition.x, newScale / 2, tf.localPosition.z);
+        }
+
+        Debug.Log ("Atacado ObjA " + tf.localScale.ToString());
     }
 
     // Update is called once per frame
