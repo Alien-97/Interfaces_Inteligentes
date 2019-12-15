@@ -1,6 +1,6 @@
 ## Tarea Experiencia de Usuario en Realidad Virtual
 
-* Autor: Alien Embarec Riadi
+* Autor: Alien Embarec Riadi, Antonio Chávez López
 * Correo: alu0101035406
 * Fecha: 8 de noviembre de 2019
 
