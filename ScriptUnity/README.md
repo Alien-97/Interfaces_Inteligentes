@@ -19,8 +19,8 @@ Posteriormente usamos el tiempo físico y no el frame para calcular la distancia
 
 
 Aquí se puede ver un GIF del cubo moviéndose:
+![Alt Text](./img/Grabacion_Cubo.gif)
 
-![Alt Text](/img/Grabacion_Cubo.gif)
 
 
 
