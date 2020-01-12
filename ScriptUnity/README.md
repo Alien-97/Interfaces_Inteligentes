@@ -2,8 +2,6 @@
 
 * Autor: Alien Embarec Riadi
 
-
-
 En esta tarea se ha creado un script en Unity para mover un objeto 3D, en este caso un cubo. Los movimientos eran básicos, derecha, izquierda, delante, atrás, en el eje *x* y el en eje *z*. Dichos movimientos adquieren un valor entre 0 y 1 cuando son positivos ( a derecha o hacia delante), y entre 0 y -1 cuando son negativos ( a izquierda o hacia atrás).
 
 A modo de contexualización, el código de un script en Unity se divide  en dos funciones, una es *start*, que como su propio nombre indica se ejecuta una sola vez al inicio de la ejecución del juego, y otra es *update*, que se ejecuta en bucle frame por frame, y va captando los movimientos del objeto.
