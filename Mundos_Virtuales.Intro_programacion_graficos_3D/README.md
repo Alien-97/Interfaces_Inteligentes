@@ -1,6 +1,6 @@
 ## Tarea : Introducción a la programacion de gráficos 3D.
 
-* Autor : Alien Embarec Riadi
+* Autores : Alien Embarec Riadi, Antonio Chávez López
 
 1.	Qué funciones se pueden usar en los scripts de Unity para llevar a cabo traslaciones, rotaciones y escalados.
 
