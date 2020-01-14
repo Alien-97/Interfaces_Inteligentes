@@ -8,5 +8,5 @@ En este proyecto, los objetos de tipo A son los árboles, y los de tipo B, son l
 
 Aquí se muestra un ejemplo animado de la práctica:
 
-![imagen](./img/GIF_Animado.gif)
+![Gif](./img/GIF_Animado.gif)
 
